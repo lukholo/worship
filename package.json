@@ -1,0 +1,11 @@
+{
+  "name": "worship_con",
+  "version": "1.0.0",
+  "description": "Worship conference website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukholo Mini",
+  "license": "ISC"
+}
