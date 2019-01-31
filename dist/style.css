@@ -128,6 +128,25 @@ header p.cta_verse::after {
   font-size: 1.3em;
 }
 
+/* image gallery */
+.image-gallery {
+  max-width: 760px;
+  margin: auto;
+  border: #fff solid 3px;
+  background: #fff;
+}
+
+.main-image img,
+.images img {
+  width: 100%;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 5px;
+}
+
 .footer {
   background: red;
   text-align: center;
@@ -136,4 +155,16 @@ header p.cta_verse::after {
   font-size: 1.8em;
   /* margin-bottom: -1em; */
   position: relative;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 500ms ease-in 1 forwards;
 }
