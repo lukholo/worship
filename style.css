@@ -43,6 +43,7 @@ header h1 {
 
 header p.cta_verse {
   color: #fff;
+  font-size: 1.3em;
 }
 
 header p.cta_verse::after {
@@ -73,7 +74,7 @@ header p.cta_verse::after {
   display: grid;
   /* grid-template-columns: 50% 50%; */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
+  
 }
 
 .header-pic {
@@ -87,6 +88,7 @@ header p.cta_verse::after {
 }
 
 .box-info {
+  max-width: 100%;
   background: #fff;
   /* height: 100%; */
   padding: 2em;
@@ -95,7 +97,6 @@ header p.cta_verse::after {
 
 .vision {
   font-size: 1.3em;
-  background: #fff;
   text-align: center;
   margin-top: 1em;
   padding: 0.65em;
@@ -107,6 +108,7 @@ header p.cta_verse::after {
 }
 
 .mission h2 {
+  font-size: 1.3em;
   text-decoration: underline;
   text-align: center;
   margin: 0.4em;
@@ -131,6 +133,7 @@ header p.cta_verse::after {
   text-align: center;
   padding: 1em;
   color: #fff;
+  font-size: 1.8em;
   /* margin-bottom: -1em; */
   position: relative;
 }

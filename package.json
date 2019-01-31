@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lukholo Mini",
-  "license": "ISC"
+  "license": "ISC",
+  "homepge": "https://lukholo.github.io/worship",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
