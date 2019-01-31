@@ -4,7 +4,7 @@
   "description": "Worship conference website",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Lukholo Mini",
   "license": "ISC",
